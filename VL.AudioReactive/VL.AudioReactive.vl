@@ -11485,9 +11485,9 @@
             <ControlPoint Id="RWVIDLJjhkuLWtYPPC55MY" Bounds="906,164" />
             <Pad Id="C2zgpqo4qULN3qEH85Vo3R" SlotId="Tc8Sob1ot5TNQTpugNDsVl" Bounds="926,356" />
             <ControlPoint Id="JFFdHzQ0TfzPSLwv0kCR4F" Bounds="788,774" />
-            <Pad Id="HuCaC37Sb2GPV31N2MiGe9" SlotId="QHix0QKmRdOMPQVCmerUx6" Bounds="104,1075" />
+            <Pad Id="HuCaC37Sb2GPV31N2MiGe9" SlotId="QHix0QKmRdOMPQVCmerUx6" Bounds="-22,1060" />
             <Pad Id="PUodDTCCpG6OiA5Zn4vcIo" SlotId="QXJpKYJP0FxN34FNtMKqNh" Bounds="449,1169" />
-            <Node Bounds="103,1109,53,26" Id="SBWQjrUHALuON3CSZZSUy8">
+            <Node Bounds="-23,1094,53,26" Id="SBWQjrUHALuON3CSZZSUy8">
               <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
@@ -11497,7 +11497,7 @@
               <Pin Id="HF005ZddGyLMLnasYwcfEa" Name="Output" Kind="OutputPin" IsHidden="true" />
               <Pin Id="OjyVMFYU9CbPRcjiKdpq0u" Name="Values" Kind="OutputPin" />
             </Node>
-            <Node Bounds="90,1145,241,265" Id="JhBMf4DLtQVOs1WyATpPQc">
+            <Node Bounds="-36,1130,241,265" Id="JhBMf4DLtQVOs1WyATpPQc">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -11510,7 +11510,7 @@
                   <Pin Id="Favl1ViuCOIPCanCu8t22B" Name="Index" Kind="InputPin" />
                 </Patch>
                 <Patch Id="HP4l9nCyevDOZr8tOPzlwP" Name="Dispose" ManuallySortedPins="true" />
-                <Node Bounds="102,1364,80,26" Id="SSxLAgIu9PfOF5Nc6j500f">
+                <Node Bounds="-24,1349,80,26" Id="SSxLAgIu9PfOF5Nc6j500f">
                   <p:NodeReference LastCategoryFullName="AudioReactive.Amplitude (Mono)" LastDependency="VL.AudioReactive.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="ClassType" Name="Amplitude (Mono)" NeedsToBeDirectParent="true" />
@@ -11521,8 +11521,8 @@
                   <Pin Id="H6qINRrCrQAL62hUGyPod4" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="Be6psGoE1FZOB80jwQtEi1" Name="Context" Kind="OutputPin" />
                 </Node>
-                <ControlPoint Id="FDBR2ej8ZmfNDvfjFaMenR" Bounds="201,1163" />
-                <Node Bounds="201,1228,25,19" Id="FauVqTRfGauNkAH1zr2v7x">
+                <ControlPoint Id="FDBR2ej8ZmfNDvfjFaMenR" Bounds="75,1148" />
+                <Node Bounds="75,1213,25,19" Id="FauVqTRfGauNkAH1zr2v7x">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="*" />
@@ -11531,7 +11531,7 @@
                   <Pin Id="RfIGTxaKxXCNjUyoox702n" Name="Input 2" Kind="InputPin" />
                   <Pin Id="BsmlAST0T2bPbMrtNchPQU" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="199,1186,62,19" Id="GToYLO6LxFIOYmmYJq5wUt">
+                <Node Bounds="73,1171,62,19" Id="GToYLO6LxFIOYmmYJq5wUt">
                   <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ToFloat32" />
@@ -11539,12 +11539,12 @@
                   <Pin Id="NNYCrOks8e6NMNssdjEYAR" Name="Input" Kind="InputPin" />
                   <Pin Id="RuCSMOGJHUDOVzZwbvnJRe" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Pad Id="JlIIu5sKJuoLb5plA4UOE9" Comment="" Bounds="261,1214,35,15" ShowValueBox="true" isIOBox="true" Value="1.55">
+                <Pad Id="JlIIu5sKJuoLb5plA4UOE9" Comment="" Bounds="135,1199,35,15" ShowValueBox="true" isIOBox="true" Value="1.55">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Node Bounds="201,1259,25,19" Id="EgXXTU9CTGENQxcbgc65dt">
+                <Node Bounds="75,1244,25,19" Id="EgXXTU9CTGENQxcbgc65dt">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="+" />
@@ -11553,12 +11553,12 @@
                   <Pin Id="IculWlMPDKjPBNmzgBq2qi" Name="Input 2" Kind="InputPin" />
                   <Pin Id="EYlgk6tWGqmPCPo9k2aZue" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="HcEfFDv2MORLkflGuRALmr" Comment="" Bounds="265,1240,35,15" ShowValueBox="true" isIOBox="true" Value="0.25">
+                <Pad Id="HcEfFDv2MORLkflGuRALmr" Comment="" Bounds="139,1225,35,15" ShowValueBox="true" isIOBox="true" Value="0.25">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Node Bounds="143,1321,123,19" Id="VmbOiZtkbYBM78bK5fVqsk">
+                <Node Bounds="17,1306,123,19" Id="VmbOiZtkbYBM78bK5fVqsk">
                   <p:NodeReference LastCategoryFullName="ImGui.Commands" LastDependency="VL.ImGui.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="SetNextWindowPosition" />
@@ -11568,7 +11568,7 @@
                   <Pin Id="EHpwMbmPu5zPpUgX0GGJgB" Name="Enabled" Kind="InputPin" />
                   <Pin Id="UWZZ4vaoSQgM45NXoDyHlO" Name="Context" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="186,1286,46,19" Id="ISSiPWKoVjWQD2dQCVFwNL">
+                <Node Bounds="60,1271,46,19" Id="ISSiPWKoVjWQD2dQCVFwNL">
                   <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="4043309057" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -11579,7 +11579,7 @@
                   <Pin Id="G0MLqhwa5R2LxsIdDywLwp" Name="Output" Kind="StateOutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="O3tc3FL7jTuONcYppch3fH" Bounds="106,1151" Alignment="Top" />
+              <ControlPoint Id="O3tc3FL7jTuONcYppch3fH" Bounds="-20,1136" Alignment="Top" />
             </Node>
             <Node Bounds="447,1193,53,26" Id="GRlio1BPdP5NsHJjgVxLX0">
               <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
