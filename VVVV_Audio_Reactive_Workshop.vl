@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JTVCiySmmWmLJ6Tkm06HQ7" LanguageVersion="2023.5.3-0302-gab7ef9c671" Version="0.128">
-  <NugetDependency Id="PWo2U7o6CgrPhUvoT4HPcD" Location="VL.CoreLib" Version="2023.5.3-0302-gab7ef9c671" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JTVCiySmmWmLJ6Tkm06HQ7" LanguageVersion="2023.5.3-0338-g7d8db7daf1" Version="0.128">
+  <NugetDependency Id="PWo2U7o6CgrPhUvoT4HPcD" Location="VL.CoreLib" Version="2023.5.3-0338-g7d8db7daf1" />
   <Patch Id="CRAtvsEzyQyM4J5OhtKu8u">
     <Canvas Id="G4op50R12whNT2DekRmcOE" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -14,17 +14,100 @@
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
       <Patch Id="GfideLq2uQnMBmBkMWcw8X">
-        <Canvas Id="RWQIaWYBlnPObMR7WF01NO" CanvasType="Group" />
+        <Canvas Id="RWQIaWYBlnPObMR7WF01NO" CanvasType="Group">
+          <Node Bounds="191,261,125,19" Id="MnupjPCrSHgMX9CZkVEgaM">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="TTuCxC1ui9XQA5USAKrsFJ" Name="Bounds" Kind="InputPin" DefaultValue="-1, 1072, 1936, 1048" IsHidden="true" />
+            <Pin Id="IWy30EqfUiMQPaGe8eBzKd" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OVN1sRgts8UPrZhj9Rx9vt" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Bkw3ltDsv8ZLeEXBOEnOEA" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UNQrd4TUmu7LvRrWNyCJL7" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QagzWSxFJSYNsCafjsBIk5" Name="Input" Kind="InputPin" />
+            <Pin Id="VmFaOiWelMUNR7Kl5Almn7" Name="Color" Kind="InputPin" />
+            <Pin Id="KAykh37JHq1MvH76Ls1nVe" Name="Clear" Kind="InputPin" />
+            <Pin Id="L5sl4I4LsUbQdSPgf4FSoB" Name="Space" Kind="InputPin" DefaultValue="DIPTopLeft" />
+            <Pin Id="K178JSlV54wOCYqewrtL5c" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="KskQyIjGbR3NmfMyPg1jKw" Name="VSync" Kind="InputPin" />
+            <Pin Id="SRiSqYfpziVMVzd9ADXYBO" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
+            <Pin Id="L8idglE4AMHNAhsfDFs4p2" Name="Enabled" Kind="InputPin" />
+            <Pin Id="CDE6yiNB5qpOOLygl2Pc98" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="Td1XKLdTAOGO2YoD6SmKxQ" Name="Form" Kind="OutputPin" />
+            <Pin Id="Ra3JpeK7zXeMzmCGO3TQSH" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="Oi3sxC4a7G0MWr0COIhUkY" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Pad Id="T5heHSDjHKkOkYs9hun4cR" Comment="Space" Bounds="253,236,80,15" ShowValueBox="true" isIOBox="true" Value="DIPTopLeft">
+            <p:TypeAnnotation LastCategoryFullName="VL.Skia" LastDependency="VL.Stride.vl">
+              <Choice Kind="TypeFlag" Name="CommonSpace" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="189,120,117,19" Id="UcJO6WAA24ZQMwJhwg63B1">
+            <p:NodeReference LastCategoryFullName="AudioReactive" LastDependency="VL.AudioReactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="AudioReactive_System" />
+            </p:NodeReference>
+            <Pin Id="GNaGwQwMSu7OszIxdFHGx9" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PMGHlogdOqFL7b62cVoAWb" Name="Output" Kind="OutputPin" />
+            <Pin Id="A87BUPMiJLsMitL5k356Mn" Name="Maps" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="539,148,53,26" Id="T8W8r0p4N1vL4yPX2Cb7JD">
+            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Keys" />
+            </p:NodeReference>
+            <Pin Id="CLFWRNuPQpTLWyOWwFs45m" Name="Input" Kind="StateInputPin" />
+            <Pin Id="LqVSwbpwrxQOcBrpFJr49J" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="H4YGTF35dhIQHS9AaX4KHg" Name="Keys" Kind="OutputPin" />
+          </Node>
+          <Pad Id="NjYHVWLhhM4Mcak0deMrvL" Comment="Keys" Bounds="542,211,35,17" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="QYFGHVdCy4LLV4krDvwvvx" SlotId="CAQiKNVsPZtMhcvFUqc6Td" Bounds="302,181" />
+          <Pad Id="IHkTQWzBbpNNdUUGmcUKMC" SlotId="CAQiKNVsPZtMhcvFUqc6Td" Bounds="541,119" />
+          <Pad Id="JwxOoXe1NbrMV7nF7Z0k6u" SlotId="CAQiKNVsPZtMhcvFUqc6Td" Bounds="737,110" />
+          <Node Bounds="735,143,88,26" Id="GTFduO2adIRMDgHZiPBFGm">
+            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="TryGetValue" />
+            </p:NodeReference>
+            <Pin Id="PIj8O0HowR0QWFW7y8zDZJ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="B0KPlGw7XTuQLvQ0Rpy0Pg" Name="Key" Kind="InputPin" />
+            <Pin Id="U3MOIUWwazfPUIiIdA4Ycg" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="IWmvDJqpJK6OJ8vsDRRhY2" Name="Result" Kind="OutputPin" />
+            <Pin Id="HAZywoIMWX9P50afHnXaNj" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Pad Id="MVDNMie4RrzN9pPuehoISu" Comment="Key" Bounds="819,109,35,15" ShowValueBox="true" isIOBox="true" Value="">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="E6JIl1TjMJ5QT9OaLBM8yJ" Comment="" Bounds="735,221,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="GmrIs3H7PFYM8zaIy2JkGt" Comment="" Bounds="819,206,190,132" ShowValueBox="true" isIOBox="true" />
+          <Overlay Id="AigXRvfmxo4Nkmu5BoOQu0" Name="Audio Reactive Sytem" Bounds="16,26,419,286" />
+        </Canvas>
         <Patch Id="Fqwen99dm8jQM1bDMHzm0u" Name="Create" />
         <Patch Id="LdkPaeKxwFBOjmk857lusB" Name="Update" />
         <ProcessDefinition Id="CKzm9yFSWRRPaO0tujypmm">
           <Fragment Id="L1zo8fP0HPbOpHyrEPHb2d" Patch="Fqwen99dm8jQM1bDMHzm0u" Enabled="true" />
           <Fragment Id="AR6o2GAtFs0NRaw04RQQ5y" Patch="LdkPaeKxwFBOjmk857lusB" Enabled="true" />
         </ProcessDefinition>
+        <Link Id="DRIrmCelr6dM6XwYSLMVFP" Ids="T5heHSDjHKkOkYs9hun4cR,L5sl4I4LsUbQdSPgf4FSoB" />
+        <Link Id="IvBNVnGsYEIQbx81Ud0xlR" Ids="PMGHlogdOqFL7b62cVoAWb,QagzWSxFJSYNsCafjsBIk5" />
+        <Link Id="FRhlfmRnExHM5reQ9vQbY7" Ids="H4YGTF35dhIQHS9AaX4KHg,NjYHVWLhhM4Mcak0deMrvL" />
+        <Slot Id="CAQiKNVsPZtMhcvFUqc6Td" Name="Maps" />
+        <Link Id="QFXkUxHkApuNEMXEIDAduB" Ids="A87BUPMiJLsMitL5k356Mn,QYFGHVdCy4LLV4krDvwvvx" />
+        <Link Id="M6VqaAsTIvhOsKt3ENUgVA" Ids="IHkTQWzBbpNNdUUGmcUKMC,CLFWRNuPQpTLWyOWwFs45m" />
+        <Link Id="IzisS88qYSXOQpYdp81RAe" Ids="JwxOoXe1NbrMV7nF7Z0k6u,PIj8O0HowR0QWFW7y8zDZJ" />
+        <Link Id="O7fWth0gQfhOLlxFvD5sVE" Ids="MVDNMie4RrzN9pPuehoISu,B0KPlGw7XTuQLvQ0Rpy0Pg" />
+        <Link Id="BS25Xpt01yJNoeyGFL8FGx" Ids="IWmvDJqpJK6OJ8vsDRRhY2,E6JIl1TjMJ5QT9OaLBM8yJ" />
+        <Link Id="D1F5jBhjnrlL9r9ijQc5z2" Ids="HAZywoIMWX9P50afHnXaNj,GmrIs3H7PFYM8zaIy2JkGt" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LFn6Y0xbVFBOfnO8b9ycNm" Location="VL.Stride" Version="2023.5.3-0302-gab7ef9c671" />
+  <NugetDependency Id="LFn6Y0xbVFBOfnO8b9ycNm" Location="VL.Stride" Version="2023.5.3-0338-g7d8db7daf1" />
   <NugetDependency Id="PIdTaAZPwm6OiZPN1E1U7G" Location="VL.Fuse" Version="1.0.0-beta01" />
   <DocumentDependency Id="EdzlyG0VBiqOBHf4x4pCX5" Location="./VL.AudioReactive/VL.AudioReactive.vl" />
+  <NugetDependency Id="RGR4PcwVUFjOqbCt5HWEbE" Location="VL.Skia" Version="2023.5.3-0338-g7d8db7daf1" />
 </Document>
