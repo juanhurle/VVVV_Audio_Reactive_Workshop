@@ -148,7 +148,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="P6Zt8q51ClhPIDpP2UYd1a" Bounds="352,285,327,60" ShowValueBox="true" isIOBox="true" Value="The Challenge: ">
+          <Pad Id="P6Zt8q51ClhPIDpP2UYd1a" Bounds="341,287,474,60" ShowValueBox="true" isIOBox="true" Value="The Three Challenges: ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -157,7 +157,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="COEPw6QKexCMRyUbMLM9W7" Bounds="351,406,477,46" ShowValueBox="true" isIOBox="true" Value="-To make computer graphics dance ! yay">
+          <Pad Id="COEPw6QKexCMRyUbMLM9W7" Bounds="381,358,480,36" ShowValueBox="true" isIOBox="true" Value="-Master the Input Flows">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -572,6 +572,24 @@
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="OUI7tqavfp3P3n8x7MxXPV" Bounds="377,396,477,46" ShowValueBox="true" isIOBox="true" Value="-Sample vs Frame:The battle of the rates ">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="U3zZXf9bFDlMFnQ6C6HDEB" Bounds="378,431,477,46" ShowValueBox="true" isIOBox="true" Value="-The ancient technique of Value Mapper">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
