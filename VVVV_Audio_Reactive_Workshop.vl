@@ -321,7 +321,7 @@
     ************************ TheWay ************************
 
 -->
-          <Node Name="TheWay" Bounds="970,70,125,116" Id="M9SeSe7vA27LFjxEKP1MBi">
+          <Node Name="TheWay" Bounds="970,70,999,142" Id="M9SeSe7vA27LFjxEKP1MBi">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VVVV_Audio_Reactive_Workshop.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
@@ -340,6 +340,15 @@
               <Link Id="KCJ3kLNNgNeL9zIbZg4y7p" Ids="NMsOnQUHCaoLy3Gky99UOk,FWkATooRK3aMptczxRWr2c" />
               <Pin Id="RvhfFGy2oNOOa93bMtdFW9" Name="TheInput" Kind="OutputPin" Bounds="975,163" />
               <Link Id="SuT1MSTrpvkLlvbrHE6bCo" Ids="FWkATooRK3aMptczxRWr2c,RvhfFGy2oNOOa93bMtdFW9" IsHidden="true" />
+              <Pad Id="Uq2wPAc9ZNhOTg7gfXMRcq" Bounds="1049,139,901,60" ShowValueBox="true" isIOBox="true" Value="may the fourier winds be on your side ">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:fontsize p:Type="Int32">15</p:fontsize>
+                  <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                </p:ValueBoxSettings>
+              </Pad>
             </Patch>
           </Node>
           <!--
@@ -385,7 +394,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Overlay Id="VAbXyXE0yf5OgqHYzibrm5" Name="" Bounds="1498,578,305,111" />
-          <Overlay Id="TPZNvTBic5pMw7NUHMg5Ko" Name="Our Enemies" Bounds="1819,523,512,224">
+          <Overlay Id="TPZNvTBic5pMw7NUHMg5Ko" Name="Our Enemies" Bounds="1819,523,576,224">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
           <Pad Id="DkX5EXWK5LGNjm7jfJOQJg" SlotId="M3exh05Vb0gPxHsiyHihN5" Bounds="1896,652" />
@@ -394,7 +403,7 @@
               <Choice Kind="ImmutableTypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="2112,613,85,19" Id="Tw9pIU68ex0QGy0z70Cv5Y">
+          <Node Bounds="2187,596,85,19" Id="Tw9pIU68ex0QGy0z70Cv5Y">
             <p:NodeReference LastCategoryFullName="Audio.Analysis" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FFT" />
@@ -407,7 +416,7 @@
             <Pin Id="FyVGyzodMeUQGI1uemFTi4" Name="db Range" Kind="InputPin" />
             <Pin Id="QZm5K5sVRxtMXbUNnYz1qD" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="IikjhzOPMqeMIJsRaw8xLs" Bounds="2138,592,124,20" ShowValueBox="true" isIOBox="true" Value="Wait...what??">
+          <Pad Id="IikjhzOPMqeMIJsRaw8xLs" Bounds="2213,575,124,20" ShowValueBox="true" isIOBox="true" Value="Wait...what??">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -416,8 +425,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IeqMSHLewuINzg7sEHOVct" Comment="Hi is this the friends zone??" Bounds="2114,697,35,49" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="PpZOmV4ZCjoMlzIVF8ze7Y" Bounds="2172,644,124,20" ShowValueBox="true" isIOBox="true" Value="Shut up!">
+          <Pad Id="IeqMSHLewuINzg7sEHOVct" Comment="Hi is this the friends zone??" Bounds="2189,680,35,49" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="PpZOmV4ZCjoMlzIVF8ze7Y" Bounds="2247,627,124,20" ShowValueBox="true" isIOBox="true" Value="Shut up!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -538,6 +547,34 @@
           <Overlay Id="IcRovSJLihJMZVXThfhbjG" Name="" Bounds="314,900,569,165">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
+          <Node Bounds="2063,604,63,19" Id="IzrExya0ZHtNdaApXiQmER">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Stopwatch" />
+            </p:NodeReference>
+            <Pin Id="D5ArvpVsVHvOtUYWj93Yoa" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CtnoRvG6IJLQFcGDFBNmKw" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CL5QrG8CocrLYtBFpjhwEJ" Name="Time" Kind="InputPin" IsHidden="true" />
+            <Pin Id="A2NiXodtEU2LgtxIoGkWS8" Name="New Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ImXZAyOzqMtLPp1QWrwqDq" Name="New Time" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EQ4W0I1mQtDLf7Ajwp7U0j" Name="Enabled" Kind="InputPin" DefaultValue="True" />
+            <Pin Id="KPc8tOfYfdONvuUs6tglBJ" Name="Reset" Kind="InputPin" />
+            <Pin Id="T7L2kT2AfkXQTAhPRU6fq9" Name="Time" Kind="OutputPin" />
+          </Node>
+          <Pad Id="S00xbj4AAH6MdmdPGHqA5n" SlotId="MCi4lFDD68gPNMz3puIghZ" Bounds="2065,656" />
+          <Pad Id="UAEd6MVrzERLXAwLIuBm1I" SlotId="MCi4lFDD68gPNMz3puIghZ" Bounds="1305,1475" />
+          <Pad Id="MADMfA2SXN2QIqAXc5tMB5" Comment="Hi Im Time!" Bounds="1305,1505,68,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="N7xoWepeOXhLCNqfpajCqj" SlotId="MCi4lFDD68gPNMz3puIghZ" Bounds="-868,294" />
+          <Pad Id="O5O1jsyb33PQTh9UhlDlTB" Comment="Hi guys Im Time!" Bounds="-868,324,68,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="BXbUvL48ekWM2cUlXIExan" Bounds="1969,635,81,19" ShowValueBox="true" isIOBox="true" Value="Hi, Im Time!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="Fqwen99dm8jQM1bDMHzm0u" Name="Create" ParticipatingElements="Sqa8rCac16tMfStf34fSAo" />
         <Patch Id="LdkPaeKxwFBOjmk857lusB" Name="Update" />
@@ -571,6 +608,10 @@
         <Link Id="RCt7OO1G3EXPRhfDT8CvqP" Ids="DzFmj5tZO7bQY971ZoNlrH,C13zEOaGDUxLbO8SdpO3pF" />
         <Link Id="QBeXaD2FkoqPXyrmjrMZzf" Ids="QgehQB6cpe9PeDEJDxw4VC,JBe3GfkvRhhNefmLCf7hkH" />
         <Link Id="KifqEuHFGbaN2ovPiTURmc" Ids="MOmMU0CYqC8QN7VHZr94sx,ElaPEgq46pYQWYtvDUWrVk" />
+        <Slot Id="MCi4lFDD68gPNMz3puIghZ" Name="Time" />
+        <Link Id="EUBjqarcTvJOVCQicaTvSy" Ids="T7L2kT2AfkXQTAhPRU6fq9,S00xbj4AAH6MdmdPGHqA5n" />
+        <Link Id="DQXlZr0MXfvNDTwNv7ARiC" Ids="UAEd6MVrzERLXAwLIuBm1I,MADMfA2SXN2QIqAXc5tMB5" />
+        <Link Id="CeAX61I7bwtP2kbHmHALne" Ids="N7xoWepeOXhLCNqfpajCqj,O5O1jsyb33PQTh9UhlDlTB" />
       </Patch>
     </Node>
   </Patch>
