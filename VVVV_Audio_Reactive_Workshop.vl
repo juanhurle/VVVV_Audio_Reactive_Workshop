@@ -1052,8 +1052,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MC8CrW0v4TKLdT1GoCR3G9" SlotId="MCi4lFDD68gPNMz3puIghZ" Bounds="3542,2087" />
-          <Pad Id="DqJrfdIfb8uLJrCURHR19s" Comment="Hi Im Time!" Bounds="3540,2117,68,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MC8CrW0v4TKLdT1GoCR3G9" SlotId="MCi4lFDD68gPNMz3puIghZ" Bounds="3544,2258" />
+          <Pad Id="DqJrfdIfb8uLJrCURHR19s" Comment="Hi Im Time!" Bounds="3542,2288,68,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="CKub0zLSwFWOKRyReCyJnT" Bounds="1024,1337,338,47" ShowValueBox="true" isIOBox="true" Value="Source of all that is dynamic ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -1787,7 +1787,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GuEtVIWJ5jTNo3sELyFbDe" Bounds="2924,1432,732,99" ShowValueBox="true" isIOBox="true" Value="Worry Not my friend, the LOGARITHM**is here to save the day with some interpolation magic !!!!">
+          <Pad Id="GuEtVIWJ5jTNo3sELyFbDe" Bounds="2951,1427,732,99" ShowValueBox="true" isIOBox="true" Value="Worry not my friend, the LOGARITHM**is here to save the day with some interpolation magic !!!!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1796,7 +1796,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FBYxXCEFLc3QMA4B2uGoBq" Bounds="2801,2447,661,27" ShowValueBox="true" isIOBox="true" Value="* Not to be confused with the algorithm ">
+          <Pad Id="FBYxXCEFLc3QMA4B2uGoBq" Bounds="2801,2412,661,27" ShowValueBox="true" isIOBox="true" Value="* Not to be confused with the algorithm ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1805,7 +1805,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KqR9xCa4L4wNuIQPBkXPZn" Bounds="2803,2473,1248,75" ShowValueBox="true" isIOBox="true" Value="** and just like that, the very thing you though impossible in your mind...slaps you in the face like the crude reality of the public transport on a monday morning... ">
+          <Pad Id="KqR9xCa4L4wNuIQPBkXPZn" Bounds="2803,2438,1248,75" ShowValueBox="true" isIOBox="true" Value="** and just like that, the very thing you though impossible in your mind...slaps you in the face like the crude reality of the public transport on a monday morning... ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1814,7 +1814,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Paf0Jg1q7hiMiqlmAlGjtL" Bounds="3768,1441,295,83" ShowValueBox="true" isIOBox="true" Value="Yeah right.. cool and that ... but thats just interpolation... not the real thing ... ">
+          <Pad Id="Paf0Jg1q7hiMiqlmAlGjtL" Bounds="3482,2002,295,83" ShowValueBox="true" isIOBox="true" Value="Yeah right.. cool and that ... but thats just interpolation... not the real thing ... ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2020,15 +2020,6 @@
           </Pad>
           <Pad Id="DhDrehHkensMzdVg2jz3x6" Comment="" Bounds="4206,1917,282,112" ShowValueBox="true" isIOBox="true" />
           <Pad Id="Mzb2zCa4HoeQKfme9m1WiJ" SlotId="B98e9bNHXKCMDUDrQ3fwpI" Bounds="4553,2246" />
-          <Pad Id="Pd4BgOdVDiYPeIV7PlZ1W1" Bounds="3259,2111,100,19" ShowValueBox="true" isIOBox="true" Value="Kinda  raw still ">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
           <Node Bounds="4203,1765,232,19" Id="A8GI9NuYM3JNc6unFwcGuH">
             <p:NodeReference LastCategoryFullName="AudioReactive" LastDependency="VL.AudioReactive.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2155,7 +2146,7 @@
             <Pin Id="FQ8GearpghdMT3o9RwP8JK" Name="Goto Position" Kind="OutputPin" />
           </Node>
           <Pad Id="Rs8potyQnhuLEazd3PN6kw" SlotId="RYav6OgnM6BM2Zr8FV7EyV" Bounds="5296,1029" />
-          <Overlay Id="AifgSco5h1zQaKp1CaLGen" Name="" Bounds="4795,263,1023,2085">
+          <Overlay Id="AifgSco5h1zQaKp1CaLGen" Name="" Bounds="4795,263,1023,1983">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
           <Pad Id="SiaZf4iqkG0OO9yRS4qn7G" Bounds="2685,603,73,70" ShowValueBox="true" isIOBox="true" Value="1.">
@@ -2692,6 +2683,15 @@
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="ExdegNEBCTIOTaasoKmzct" Bounds="3457,1838,200,47" ShowValueBox="true" isIOBox="true" Value="Et voila´">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
