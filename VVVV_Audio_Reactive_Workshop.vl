@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JTVCiySmmWmLJ6Tkm06HQ7" LanguageVersion="2023.5.3-0338-g7d8db7daf1" Version="0.128">
-  <NugetDependency Id="PWo2U7o6CgrPhUvoT4HPcD" Location="VL.CoreLib" Version="2023.5.3-0338-g7d8db7daf1" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JTVCiySmmWmLJ6Tkm06HQ7" LanguageVersion="2023.5.3-0349-g416621bccc" Version="0.128">
+  <NugetDependency Id="PWo2U7o6CgrPhUvoT4HPcD" Location="VL.CoreLib" Version="2023.5.3-0349-g416621bccc" />
   <Patch Id="CRAtvsEzyQyM4J5OhtKu8u">
     <Canvas Id="G4op50R12whNT2DekRmcOE" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -21,7 +21,7 @@
     ************************ Operation ************************
 
 -->
-          <Node Name="Operation" Bounds="14,38,836,168" Id="UIxiPekl0FpQbaHHrCGbze">
+          <Node Name="Operation" Bounds="14,38,836,169" Id="UIxiPekl0FpQbaHHrCGbze">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
             </p:NodeReference>
@@ -846,11 +846,6 @@
                   </p:TypeAnnotation>
                 </Pad>
               </Canvas>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="EW6BCN61uqPPObRWNLUEmL">
                 <Fragment Id="MtCjwXfXnUCO5bKjXxqjST" Patch="LRsTyCFHgMKLL5CuRXWzYh" Enabled="true" />
                 <Fragment Id="O9kloPC6lXyL2p2grroqUo" Patch="IZS1VC6cLP3OipETO8orLg" Enabled="true" />
@@ -1703,13 +1698,14 @@
             </p:NodeReference>
             <Pin Id="VXdFjrp16CbLRPpPyGVgav" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="D6ey57oE1ZgLzx6u3INf7M" Name="Input" Kind="InputPin" />
+            <Pin Id="VZMtFZH3JTqPYyyYT2ycr7" Name="Sample Rate" Kind="InputPin" />
             <Pin Id="UvdbCMe4bylPQELJWf9gyW" Name="Pow" Kind="InputPin" />
             <Pin Id="MfVkHYQoL8MOOnaZKt8UoD" Name="Min" Kind="InputPin" />
             <Pin Id="IJG97BYVhsoQXABpI39cjT" Name="Max" Kind="InputPin" />
-            <Pin Id="FuwUS1QRLgENGla4CGYmP3" Name="SampleRate" Kind="InputPin" />
             <Pin Id="UyBPIh7qzwjNWrj2uuA2Am" Name="Output" Kind="OutputPin" />
             <Pin Id="VEguYRSU5AKLrJ3MdXvRyR" Name="Count" Kind="OutputPin" />
-            <Pin Id="VV9j8x7ttD3LzYG2gqKgvW" Name="freq" Kind="OutputPin" />
+            <Pin Id="Sye0M7OieFiOUqJQGJIDTy" Name="Frequencies" Kind="OutputPin" />
+            <Pin Id="FuwUS1QRLgENGla4CGYmP3" Name="SampleRate" Kind="InputPin" />
           </Node>
           <Node Bounds="2987,2107,151,19" Id="LrAD31RLIcPNGjHwiTNyLo">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="VVVV_Audio_Reactive_Workshop.vl">
@@ -2681,6 +2677,44 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="CDxXxlsFkIQOIYGuKkRXx6" Comment="Nothing" Bounds="3233,1039,42,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="5671,1243,125,19" Id="VxSs2hrYQj3LAz5apxCaWY">
+            <p:NodeReference LastCategoryFullName="AudioReactive" LastDependency="VL.AudioReactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="BeatDetector_JH" />
+            </p:NodeReference>
+            <Pin Id="MRixZI7MRtPNKhBdhyC3kL" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BqdV9H8vS5NMzJAOQbuofY" Name="Input" Kind="InputPin" />
+            <Pin Id="F2KpvipC0cvOIituFXXWk8" Name="Gain" Kind="InputPin" />
+            <Pin Id="QNrSNkYXhmJOi4t4AckkqC" Name="Reset" Kind="InputPin" />
+            <Pin Id="QX1HYERwvQeOi2qwwY59TT" Name="EnergyBufferCount" Kind="InputPin" />
+            <Pin Id="RMEknA30j6nLYQMWEBDTNr" Name="Min Velocity" Kind="InputPin" />
+            <Pin Id="FptQd5GbvUENutwTPkzviJ" Name="Pow" Kind="OutputPin" />
+            <Pin Id="UiVOAbU3RxFNo1UqO0obNX" Name="Toggle" Kind="OutputPin" />
+            <Pin Id="RFFID4bhylmO45YZRzNngc" Name="Energy" Kind="OutputPin" />
+            <Pin Id="Kg2MRhY644NNGZZfB9WrQV" Name="Toggle /4" Kind="OutputPin" />
+            <Pin Id="B0TKZJSMMVnL1q4E90PKgK" Name="Counter 4" Kind="OutputPin" />
+            <Pin Id="JX7dqpJ3gQoQJ8h2Pqa2KO" Name="Toggle /16" Kind="OutputPin" />
+            <Pin Id="N4MLw2n8gewNCZ8BEmMzSN" Name="Counter 16" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="5672,1276,125,19" Id="J66VpdWSVABPpz0S6GQ2ZC">
+            <p:NodeReference LastCategoryFullName="Audio.Analysis" LastDependency="VL.Audio.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="BeatDetector" />
+            </p:NodeReference>
+            <Pin Id="QkYMAF7umx1OPLN8LaeQfo" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="MWHViTIqvkHLB51NpDWfqL" Name="Input" Kind="InputPin" />
+            <Pin Id="B2skqwkjATGOwADCzCmarw" Name="Gain" Kind="InputPin" />
+            <Pin Id="ArVRCjX23MpL84Aje35d8f" Name="Reset" Kind="InputPin" />
+            <Pin Id="ASFPgJqizvwPztlYemQcIE" Name="EnergyBufferCount" Kind="InputPin" />
+            <Pin Id="NevxqzuOj4gQBQyFpCxtOP" Name="Min Velocity" Kind="InputPin" />
+            <Pin Id="VBFxPEeY0TBMUa9IyxoyRH" Name="Pow" Kind="OutputPin" />
+            <Pin Id="CrRTxRi4ufJPwQOEA2ByiQ" Name="Toggle" Kind="OutputPin" />
+            <Pin Id="BJffZFZII8wNOXiHZE2QJ1" Name="Energy" Kind="OutputPin" />
+            <Pin Id="CJ4wJcUyVzsMoFY4dDZQX3" Name="Toggle /4" Kind="OutputPin" />
+            <Pin Id="SJhxmSb128lNbRuUiLrFYs" Name="Counter 4" Kind="OutputPin" />
+            <Pin Id="Vl0zncvAtHvLLm06g1oeUD" Name="Toggle /16" Kind="OutputPin" />
+            <Pin Id="Fd8gBFra8T2LcO3aJcCkt1" Name="Counter 16" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="Fqwen99dm8jQM1bDMHzm0u" Name="Create" ParticipatingElements="Sqa8rCac16tMfStf34fSAo,HGEtAEpZDvYMVfOqboLuSG,Rxk21pq51e5MCAgY3bE896" />
         <Patch Id="LdkPaeKxwFBOjmk857lusB" Name="Update" ParticipatingElements="Ukf6wIjs9rcOrSZm1fLmnZ,VT9dNOswkGKNwDKtqwOvsI,Ul3xYr2l8c5OxsMcjcoWkY,MfnUeyX7gIELa5L6qBCP7P,CjD9zPnbA24QTSRftheNA0" />
@@ -2871,12 +2905,13 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LFn6Y0xbVFBOfnO8b9ycNm" Location="VL.Stride" Version="2023.5.3-0338-g7d8db7daf1" />
+  <NugetDependency Id="LFn6Y0xbVFBOfnO8b9ycNm" Location="VL.Stride" Version="2023.5.3-0349-g416621bccc" />
   <NugetDependency Id="PIdTaAZPwm6OiZPN1E1U7G" Location="VL.Fuse" Version="1.0.0-beta01" />
   <DocumentDependency Id="EdzlyG0VBiqOBHf4x4pCX5" Location="./VL.AudioReactive/VL.AudioReactive.vl" />
-  <NugetDependency Id="RGR4PcwVUFjOqbCt5HWEbE" Location="VL.Skia" Version="2023.5.3-0338-g7d8db7daf1" />
-  <NugetDependency Id="UTMbD3wCPbrNY1pZHCOgSR" Location="VL.Audio" Version="1.3.1-preview" />
-  <NugetDependency Id="Bsyj5JUSDMJOujLRJitONz" Location="VL.ImGui" Version="2023.5.3-0338-g7d8db7daf1" />
-  <NugetDependency Id="M6YYCMTk6BQMMElHcycKrT" Location="VL.ImGui.Skia" Version="2023.5.3-0338-g7d8db7daf1" />
-  <NugetDependency Id="O7sy8ZYzZtzOIaZcuZFuXF" Location="VL.Video" Version="2023.5.3-0338-g7d8db7daf1" />
+  <NugetDependency Id="RGR4PcwVUFjOqbCt5HWEbE" Location="VL.Skia" Version="2023.5.3-0349-g416621bccc" />
+  <NugetDependency Id="UTMbD3wCPbrNY1pZHCOgSR" Location="VL.Audio" Version="1.3.4-preview" />
+  <NugetDependency Id="Bsyj5JUSDMJOujLRJitONz" Location="VL.ImGui" Version="2023.5.3-0349-g416621bccc" />
+  <NugetDependency Id="M6YYCMTk6BQMMElHcycKrT" Location="VL.ImGui.Skia" Version="2023.5.3-0349-g416621bccc" />
+  <NugetDependency Id="O7sy8ZYzZtzOIaZcuZFuXF" Location="VL.Video" Version="2023.5.3-0349-g416621bccc" />
+  <NugetDependency Id="RrKlhY72HOPNIzUh9K5k1z" Location="VL.Stride.TextureFX" Version="2023.5.3-0349-g416621bccc" />
 </Document>
