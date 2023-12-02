@@ -1,2 +1,4 @@
-# VVVV_Audio_Reactive_Workshop
+# Vl.AudioReactive 
+
+## Version 1.0.0
  
