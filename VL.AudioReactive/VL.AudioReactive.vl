@@ -14858,7 +14858,7 @@
                     <Pin Id="AWtitYfptfiOhVBB5K6N9q" Name="Path" Kind="InputPin" />
                     <Pin Id="BcyCy6CZCbZP6QrMDzJwNQ" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="BO11HoYMI9FNtfHJ4HVceM" Comment="Path" Bounds="911,269,119,15" ShowValueBox="true" isIOBox="true" Value="ProjectVersion.Version">
+                  <Pad Id="BO11HoYMI9FNtfHJ4HVceM" Comment="Path" Bounds="911,269,119,15" ShowValueBox="true" isIOBox="true" Value="ProjectVersion">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -15206,6 +15206,22 @@
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
                   </Pad>
+                  <Node Bounds="573,487,87,19" Id="T9Q6ZaDqqPYNh8kjTv0Mew">
+                    <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
+                    </p:NodeReference>
+                    <Pin Id="MPjIlP8LlxGNtpuIteemdo" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                    <Pin Id="RHA3W5dMEo8NwbraW7xfUi" Name="Output" Kind="OutputPin" />
+                  </Node>
+                  <Node Bounds="929,494,87,19" Id="C9sz0YIuGTDMV7pvbn88NW">
+                    <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
+                    </p:NodeReference>
+                    <Pin Id="RkBSZGf865HNPtT6TlhCpR" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                    <Pin Id="J3fTvgQvx0nP6AFCmbcPRi" Name="Output" Kind="OutputPin" />
+                  </Node>
                 </Canvas>
                 <ProcessDefinition Id="B63Rtq8eEYWPVECiJM52X2">
                   <Fragment Id="IguPrE5kbPLQb7zV3NE4Ca" Patch="A95SJXSvRMRQZuO1mydF1W" Enabled="true" />
@@ -15254,6 +15270,8 @@
                 <Link Id="QXD4k07N6CcNlqux1NtYHu" Ids="SYWyP8o85e4QWAzy364N3k,M95v2dUVKZVMSvfEFPN1IT" />
                 <Link Id="IBnws170MCkOYFv966kfwt" Ids="Lf3KNy9YxiyOKCZTP6MkAN,BeFDu2ObwA5NTuvRON4X0E" />
                 <Link Id="T7geptIJUhmLr7SNOZzS5Z" Ids="EdU0rir5JLRNEY4hW0Azke,GSFuJNDYvzdN1boVHCQfaR" />
+                <Link Id="VsBC13rfNUiPOazKJmZ2CL" Ids="RHA3W5dMEo8NwbraW7xfUi,LspawEm5JdMLa12T4dzqwe" />
+                <Link Id="MGUcqtA5gC6LIfyKuwQzGN" Ids="J3fTvgQvx0nP6AFCmbcPRi,QfIopyFum04MyhK2vQAIiQ" />
               </Patch>
             </Node>
             <!--
@@ -15330,7 +15348,7 @@
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="Renderer" />
                     </p:NodeReference>
-                    <Pin Id="V3XkbxaS5C0LfZQn0A3yWI" Name="Bounds" Kind="InputPin" DefaultValue="1050, 200, 878, 734" IsHidden="true" />
+                    <Pin Id="V3XkbxaS5C0LfZQn0A3yWI" Name="Bounds" Kind="InputPin" DefaultValue="723, 226, 878, 734" IsHidden="true" />
                     <Pin Id="TaN6FJxLCN9QKK9tLxyKDp" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
                     <Pin Id="Gj8Ouy2sHQQNdQ8Z28YeQu" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                     <Pin Id="SLLmW8pFXSoOEnaGOOc60u" Name="Node Context" Kind="InputPin" IsHidden="true" />
